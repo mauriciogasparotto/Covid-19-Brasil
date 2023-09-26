@@ -1,11 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[1]:
-
-
-# Código:
-
 # Importação das bibliotecas
 
 # Pandas # Bar Chart Race # Matplotlib # Datetime
@@ -21,10 +13,6 @@ import datetime
 # Eliminar os avisos
 import warnings
 warnings.filterwarnings('ignore')
-
-
-# In[6]:
-
 
 # Leitura dos datasets baixados do portal oficial de dados da Covid-19 no Brasil - Ministério da Saúde
 covidbr2020 = pd.read_csv(r'covidbr_2020.csv', on_bad_lines='skip', sep=',', encoding='latin-1')
@@ -50,10 +38,6 @@ df_covid_bcr = df_grouped.pivot_table(index='data', columns='regiao', values='ob
 # Reorganizar as colunas para corresponder à ordem original
 df_covid_bcr = df_covid_bcr[df_grouped['regiao'].unique()]
 df_covid_bcr
-
-
-# In[3]:
-
 
 bcr.bar_chart_race(
     df=df_covid_bcr,
