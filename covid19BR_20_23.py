@@ -89,8 +89,5 @@ bcr.bar_chart_race(
     filter_column_colors=False)
 
 
-# In[ ]:
-
-
 
 
