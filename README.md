@@ -17,12 +17,12 @@ Como consequência, hábitos foram modificados, outros, adquiridos, até que os 
 ## Objetivo:
 
 Utilizando os dados do portal [**Coronavírus BRASIL**](https://covid.saude.gov.br/) cuja atualização quando da produção deste projeto foi 26/04/2023, produziu-se um modelo de visualização mais dinâmico, no caso, uma corrida de barras (Bar Chart Race). Os casos foram agrupados por região do Brasil (Norte, Nordeste, Sudeste, Sul e Centro-Oeste).
+**OBS**: devido ao tamanho dos arquivos (mais de 500 MB), não foi possível fazer o uplod para um diretório do Github.
 
 O resultado permite demonstrar que áreas mais densamente povoadas são mais suscetíveis ao maior número de casos (contaminação e mortes).
 
 ## Estrutura do repositório:
 
-* **data:** arquivos **.csv** baixados no site da Secom;
 * **img:** capturas de tela e gráficos do projeto;
 * **code:** estrutura dos códigos para **Jupyter Notebook** (.ipynb) e **VSCode** (.py);
 * **english version:** a translate of **reademe.md** (.pdf).
