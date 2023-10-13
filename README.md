@@ -24,7 +24,7 @@ O resultado permite demonstrar que áreas mais densamente povoadas são mais sus
 
 * **img:** capturas de tela e gráficos do projeto;
 * **code:** estrutura dos códigos para **Jupyter Notebook** (.ipynb) e **VSCode** (.py);
-* **english version:** a translate of **reademe.md** (.pdf).
+* **english version:** a translate of **readme.md** (.pdf).
 
 * **OBS**: devido ao tamanho dos arquivos (mais de 500 MB), não foi possível fazer o uplod para um diretório do Github.
 
